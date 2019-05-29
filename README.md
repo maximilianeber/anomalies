@@ -7,9 +7,9 @@ A visualization of 143 published stock market anomalies based on data from
 1) Clone the repository
 2) Download the 
 [returns data](https://drive.google.com/open?id=0ByAFEgH1yFDCU3dZNWRXb0xZdFU) 
-from Andrew Chen's Website. Place it here: `data/signal_month_returns.csv` so the app can find it. 
-3) Install the required packages from 'requirements.txt', ideally in a virtual environment.
-4) Run 'python application.py' in a terminal for local execution
+from Andrew Chen's Website. Place it in `data/signal_month_returns.csv` so the app can find it. 
+3) Install the required packages from `requirements.txt`, ideally in a virtual environment.
+4) Run `python application.py` in a terminal for local execution
 
 ### Demo
 
