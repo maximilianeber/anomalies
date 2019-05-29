@@ -85,8 +85,9 @@ def plot_anomalies(anomalies, year_limits):
 
     comb_cumreturn = [plot_cumreturn(x) for x in anomalies]
     layout = go.Layout(
-        title='Cumulative Returns',
+        title='Cumulative Returns over Time',
         hovermode='closest',
+        yaxis={'title': 'Cumulative Return'},
     )
     fig = {'data': comb_cumreturn, 'layout': layout}
     return fig
