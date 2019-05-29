@@ -13,6 +13,6 @@ from Andrew Chen's Website. Place it here: `data/signal_month_returns.csv` so th
 
 ### Demo
 
-You can find a live demo (here)[https://anomalies.maximilianeber.com].  
+You can find a live demo [here](https://anomalies.maximilianeber.com).  
 
 ![Screenshot from anomalies.maximilianeber.com](screenshot.png)
