@@ -61,6 +61,7 @@ app.layout = html.Div([
     dcc.Markdown(
         """**Notes:**  
         Data from [Chen and Zimmermann (2019)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2802357)  
+        Code on [GitHub](https://github.com/maximilianeber/anomalies)
         © 2019 [Maximilian Eber](https://www.maximilianeber.com) ([Impressum](https://maximilianeber.com/impressum/))
         """)
 ])
