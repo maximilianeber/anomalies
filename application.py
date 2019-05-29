@@ -44,7 +44,7 @@ app.layout = html.Div([
         multi=True,
     ),
     html.Br(),
-    html.Label('Choose starting year'),
+    html.Label('Choose timeframe'),
     dcc.RangeSlider(
         id='year-slider',
         value=[1980, 2018],
@@ -84,7 +84,10 @@ def plot_anomalies(anomalies, year_limits):
         return go.Scatter(x=df_plot['Date'], y=df_plot[x], mode='lines', name=x)
 
     comb_cumreturn = [plot_cumreturn(x) for x in anomalies]
-    layout = go.Layout(title='Cumulative Returns', hovermode='closest')
+    layout = go.Layout(
+        title='Cumulative Returns',
+        hovermode='closest',
+    )
     fig = {'data': comb_cumreturn, 'layout': layout}
     return fig
 
