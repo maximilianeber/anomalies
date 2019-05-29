@@ -27,16 +27,16 @@ df[anomalies] = df[anomalies].cumprod(axis=0)
 
 # Define application
 app = dash.Dash(__name__)
-app.title = 'A Visualization of 143 Stock Market Anomalies'
+app.title = 'A Visualization of 156 Stock Market Anomalies'
 app.css.append_css({
     "external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"
 })
 
 
 app.layout = html.Div([
-    dcc.Markdown('# A Visualization of 143 Stock Market Anomalies'),
+    dcc.Markdown('# A Visualization of 156 Stock Market Anomalies'),
 
-    html.Label('Choose anomalies'),
+    html.Label('Choose anomalies:'),
     dcc.Dropdown(
         id='anomaly-selector',
         options=[{'label':a, 'value':a} for a in anomalies],
@@ -44,7 +44,7 @@ app.layout = html.Div([
         multi=True,
     ),
     html.Br(),
-    html.Label('Choose timeframe'),
+    html.Label('Choose timeframe:'),
     dcc.RangeSlider(
         id='year-slider',
         value=[1980, 2018],
