@@ -1,5 +1,5 @@
 # Anomalies
-A visualization of 143 published stock market anomalies based on data from 
+A visualization of 156 published stock market anomalies based on data from 
 [Chen and Zimmermann (2019)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2802357).
 
 ### Getting Started
